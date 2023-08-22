@@ -3,7 +3,11 @@ export default {
   content: [],
   purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        68: '17rem',
+      },
+    },
   },
   plugins: [],
 };
